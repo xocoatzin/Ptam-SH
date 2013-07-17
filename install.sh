@@ -1,4 +1,3 @@
-: <<'END'
 read -p "Press enter to continue"
 sudo apt-get update
 
@@ -39,11 +38,9 @@ echo "now run ocv.sh and remove old dir!! and mrpt.sh"
 read -p "Press enter to continue"
 
 git clone https://github.com/xocoatzin/PtamSRC.git
-END
 
 cd PtamSRC
 
-: <<'END'
 echo
 echo
 echo
@@ -106,8 +103,6 @@ read -p "Press enter to continue"
 sudo make install
 cd ..
 
-END
-
 echo
 echo
 echo
@@ -122,6 +117,3 @@ read -p "Press enter to continue..."
 cd PTAM
 make
 cd ..
-
-#cd ptam/PTAM
-#./build_all.sh
