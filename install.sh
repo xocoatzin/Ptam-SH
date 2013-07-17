@@ -27,6 +27,7 @@ sudo apt-get install libfltk1.3-dev
 sudo apt-get install libx11-dev
 sudo apt-get install libmpfr-dev
 sudo apt-get install m4
+sudo apt-get install ffmpeg
 
 read -p "Press enter to continue"
 sudo apt-get install openjdk-6-jdk
